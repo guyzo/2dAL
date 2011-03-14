@@ -1,0 +1,11 @@
+2dAL - dotNet Data Access Layer
+===============================
+
+I'm sure the world doesn't need another data access layer but this represents some
+work I was exploring with C#. Instead of using a mapping description to map from
+the objects to the DB, this layer makes calls to the data object and those functions
+need to perform all the manipulation.
+
+This grew out of my continued frustration when trying to work with legacy or
+wonky schema but make a nice object representation. Writing the custom mappings
+seems like too much black magic.
